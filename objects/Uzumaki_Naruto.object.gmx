@@ -208,10 +208,10 @@ if (place_meeting(x, y+1, all))
 }
 
 //Wall Cling Test 01
-/*if (place_meeting(x, y+1, all) &amp;&amp; gamepad_button_check_pressed(0, gp_shoulderlb))
+if (gamepad_button_check(0, gp_shoulderlb))
 {
-    grav = 0;
-}*/
+    vsp = 0;
+}
 
 
 //jump system
